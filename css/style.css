@@ -325,3 +325,40 @@ i:hover{
 i{
     transition: .5s;
 }
+.contact-info{
+    margin-left: 200px;
+}
+.contact-info h3{
+        text-transform: none;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        color: var(--first-color);
+        font-size: 1.5rem;
+        font-weight: bold;
+
+}
+.contact-info span{
+    text-transform: capitalize;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+.contact{
+    background-color: #fafafa;
+}
+.social{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.icons i{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: black;
+}
+.icons{
+    box-sizing: border-box;
+    align-self: center;
+    justify-self: center;
+}
