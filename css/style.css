@@ -86,11 +86,12 @@ i{
 .main-title {
     text-align: center;
     position: relative;
+    
 }
 .main-title>h2{
     font-size: 7rem;
     font-weight: 900;
-    color: var(--bg-color);
+    color: #ebebeb;
 }
 .main-title>p{
     position: absolute;
