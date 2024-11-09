@@ -85,7 +85,6 @@ i{
 }
 .main-title {
     text-align: center;
-    margin: 40px 0;
     position: relative;
 }
 .main-title>h2{
@@ -308,7 +307,7 @@ width: 100%;
     width: 100%;
 }
 .container .main-title{
-    margin-top:90px ;
+    margin-top:90px;
 }
 .about-content{
     width: 100%;
@@ -337,11 +336,9 @@ i{
         font-weight: bold;
 
 }
-.contact-info span{
+.contact-info span{       
+             display: inline-block;
     text-transform: capitalize;
-    padding-left: 10px;
-    margin-bottom: 20px;
-
 }
 .contact{
     background-color: #fafafa;
@@ -350,15 +347,11 @@ i{
     display: flex;
     align-items: center;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 .icons i{
     display: inline-block;
     font-size: 1.5rem;
     margin-left: 20px;
-    color: black;
-}
-.icons{
-    box-sizing: border-box;
-    align-self: center;
-    justify-self: center;
+    color: var(--first-color);
 }
