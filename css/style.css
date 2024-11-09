@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     text-transform: capitalize;
+    padding: 0;
 }
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,28 +101,42 @@ i{
     font-size: 1.3rem;
 }
 .boxs {
+    
     flex: 2;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    gap: 5%;
+     grid-template-columns: repeat(auto-fill, minmax(34%, 1fr));
+     gap: none;
 }
-.boxs >.box{
+.boxs .box{
     position: relative;
     width: fit-content;
+    display: flex;
 }
-.boxs .box .icon{
+.boxs .box i{
 font-size: 2rem;
-top: 0;
-left: 10px;
+top: 50px;
+left: 0px;
 position: absolute;
 }
+.boxs .box , .box.info{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    margin-left: 50px;
+}
 .boxs .box h2{
-    position: absolute;
-    top: -10px;
-    margin-left: 20px;
+    top: 0px;
+    margin-left: 0px;
 }
 .boxs .box p{
+    width: 80%;
     margin-top: 40px;
+    margin-left: 0px;
+    text-align: left;
+    line-height: 1.5;
 }
 .services-content{
     display: flex;
@@ -130,7 +145,7 @@ position: absolute;
     flex: 1;
     background-color: var(--bg-color);
     box-shadow: 0px 5px 2px var(--shadow-color);
-    max-width: 350px;
+    max-width: 300px;
     position: relative;
     left: -50px;
 }
@@ -269,16 +284,17 @@ footer .container p b {
 .boxs .box i{
     position: absolute;
     top: 20px;
-    left: 10px;
+    left: -35px;
 }
 .boxs .box h2{
 position: absolute;
 top: 0;
-margin-left: 50px;
+margin-left: 0px;
 }
 .boxs .box > p{
     line-height: 1.5;
     text-align: left;
+    width: 90% !important;
 }
 .services-content{
     display: flex;
