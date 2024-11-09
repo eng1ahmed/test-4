@@ -250,6 +250,9 @@ footer .container p b {
     i{
         font-size: 2rem;
     }
+    .contact-info{
+        margin-left: 10px !important;
+    }
 .effect{
     display: none;
 }
@@ -288,14 +291,17 @@ margin-left: 50px;
     font-size: 1rem;
 }
 .portfolio-content{
+    width: 100%;
 display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 0px;
+    margin: 0;
 }
 .card img{
 width: 100%;
 }
 .cards{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(95%, 1fr));
                 row-gap: 5%;
@@ -305,6 +311,7 @@ width: 100%;
 }
 .about-content .about-text{
     width: 100%;
+    margin-left: 10px;
 }
 .container .main-title{
     margin-top:90px;
@@ -313,6 +320,7 @@ width: 100%;
     width: 100%;
     margin: 0;
 }
+
 .about-content p{
     line-height: 1.7;
 }
