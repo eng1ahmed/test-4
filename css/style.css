@@ -74,12 +74,12 @@ i{
         grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
         gap: 25px;
 }
-.box {
+.obj-content .box {
     width: fit-content;
     padding: 30px 50px;
     text-align: center;
 }
-.box img{
+.obj-content .box img{
     display: flex;
     align-self: flex-start;
     justify-self: center;
@@ -117,12 +117,12 @@ justify-content: center;
     position: relative;
     width: fit-content;
     display: flex;
-    margin: 0;
+
 }
 .boxs .box i{
 font-size: 2rem;
-top: 50px;
-left: 0px;
+top: 25px;
+left: -50px;
 position: absolute;
 }
 .boxs .box , .box.info{
@@ -132,21 +132,18 @@ position: absolute;
     justify-content: left;
     text-align: left;
     align-items: center;
-    margin-left: 50px;
+    left: 50px;
 }
 .boxs .box h2{
     top: 0px;
     margin-left: 0px;
 }
 .boxs .box p{
-    width: 80%;
-    margin-top: 40px;
-    margin-left: 0px;
+    max-width: 236px;
+    top: 40px;
+    left: 0px;
     text-align: left;
     line-height: 1.5;
-}
-.services-content{
-    display: flex;
 }
 .effect {
     flex: 1;
