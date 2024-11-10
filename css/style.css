@@ -271,6 +271,9 @@ footer .container p b {
   i {
     font-size: 2rem;
   }
+  .head-content{
+    padding: 15px;
+  }
   .contact-info {
     margin-left: 10px !important;
   }
