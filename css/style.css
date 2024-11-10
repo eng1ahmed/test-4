@@ -100,17 +100,24 @@ i{
     bottom: 5%;
     font-size: 1.3rem;
 }
+.services .services-content{
+    display: flex;
+justify-content: center;
+}
 .boxs {
     
     flex: 2;
     display: grid;
-     grid-template-columns: repeat(auto-fill, minmax(34%, 1fr));
-     gap: none;
+    max-width: 850px;
+     grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+     gap: 0%;
+     margin: 0;
 }
 .boxs .box{
     position: relative;
     width: fit-content;
     display: flex;
+    margin: 0;
 }
 .boxs .box i{
 font-size: 2rem;
