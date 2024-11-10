@@ -33,6 +33,8 @@ body{
 .logo>a>img{
     width: 60px;
     height: 24px;
+    height: 42px;
+    scale: 2;
 }
 .bar>i{
     width: 20px;
@@ -386,4 +388,16 @@ i{
     font-size: 1.5rem;
     margin-left: 20px;
     color: var(--first-color);
+}
+img:hover{
+    scale: 1.1;
+    transform: translate(1%,1%);
+    transition: 1s;
+}
+img
+{
+    transition: 1s;
+}
+.card{
+    overflow: hidden;
 }
