@@ -273,6 +273,9 @@ footer .container p b {
     display: none;
 }
 .boxs{
+    display: grid;
+    padding: 70px;
+    margin: 0;
      grid-template-columns: repeat(auto-fill, minmax(95%, 1fr));
 }
 .boxs .box{
@@ -355,10 +358,9 @@ i{
 .contact-info h3{
         text-transform: none;
         padding-left: 10px;
-        width: 80%;
         margin-bottom: 20px;
         color: var(--first-color);
-        font-size: 150%;
+        font-size: 1.5rem;
         font-weight: bold;
 
 }
